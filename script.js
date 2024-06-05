@@ -1,2 +1,2 @@
 const last = document.createElement('p')
-const 
+const loader = document.querySelector('lastPost')
