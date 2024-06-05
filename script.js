@@ -15,7 +15,7 @@
         if(!recq.ok) {
             //loader.innerText = '//
         }
-    } caches (e) {
+    } catch (e) {
         loader.innerText = 'Impossible de se Connecter'
         loader.computedStyleMap.color = 'red'
     }
