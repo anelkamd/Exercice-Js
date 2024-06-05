@@ -6,12 +6,17 @@
     loader.innerText = 'Telechargement....'
     Wrapper.append(loader) 
 
-     const recq = await fetch('Lien de lAPI', {
-        Headers: {
-            Accept: 'Application/json'
+    try {
+        const recq = await fetch('Lien de lAPI', {
+            Headers: {
+                Accept: 'Application/json'
+            }
+        })
+        if(!recq.ok) {
+            //loader.innerText = '//
         }
-    })
-    if(!recq.ok) {
+    } caches (e) {
         loader.innerText = 'Impossible de se Connecter'
+        loader.computedStyleMap.color = 'red'
     }
 }
