@@ -1,3 +1,4 @@
 const last = document.createElement('p')
 const loader = document.querySelector('lastPost')
-loader.innerText('Telechargement')
+loader.innerText = 'Telechargement'
+Wrapper.append(loader)
