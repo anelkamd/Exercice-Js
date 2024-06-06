@@ -24,7 +24,7 @@ function createArticle (post) {
             throw new Error('Connectez....')
         }
 
-        const post = await recq.json
+        const posts = await recq.json
         loader.remove()
     } catch (e) {
         loader.innerText = 'Impossible de se Connecter'
