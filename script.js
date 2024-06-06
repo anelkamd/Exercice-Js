@@ -16,6 +16,8 @@
             //loader.innerText = '//
             throw new Error('Connectez....')
         }
+
+        const post = await recq.json
     } catch (e) {
         loader.innerText = 'Impossible de se Connecter'
         loader.computedStyleMap.color = 'red'
