@@ -4,6 +4,7 @@ function createArticle (post) {
     <h2>${post.tittle}</h2>
     <p>${post.body}</p>
     `
+    return arcticle
 }
 
  async function main () {
