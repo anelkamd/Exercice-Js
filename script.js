@@ -14,6 +14,7 @@
         })
         if(!recq.ok) {
             //loader.innerText = '//
+            throw new Error = 'Connectez....';
         }
     } catch (e) {
         loader.innerText = 'Impossible de se Connecter'
