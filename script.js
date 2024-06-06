@@ -18,6 +18,7 @@
         }
 
         const post = await recq.json
+        loader.remove()
     } catch (e) {
         loader.innerText = 'Impossible de se Connecter'
         loader.computedStyleMap.color = 'red'
