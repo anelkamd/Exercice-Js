@@ -1,4 +1,9 @@
-
+function createArticle (post) {
+    const arcticle = document.createElement('article')
+    arcticle.innerHTML = `
+    <h2>${post.tittle}</h2>
+    `
+}
 
  async function main () {
     const last = document.createElement('p')
