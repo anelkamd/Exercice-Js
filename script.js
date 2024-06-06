@@ -24,6 +24,10 @@ function createArticle (post) {
             throw new Error('Connectez....')
         }
 
+        for (let post of posts) {
+            Wrapper.append(createArticle(post))
+        }
+
         const posts = await recq.json
         loader.remove()
     } catch (e) {
