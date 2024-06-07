@@ -14,7 +14,7 @@ function createArticle (post) {
     Wrapper.append(loader) 
 
     try {
-        const recq = await fetch('https://jsonplaceholder.org/posts/lorem-ipsum', {
+        const recq = await fetch('https://jsonplaceholder.org/posts', {
             Headers: {
                 Accept: 'Application/json'
             }
