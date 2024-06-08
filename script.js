@@ -14,7 +14,7 @@ function createArticle (post) {
     Wrapper.append(loader) 
 
     try {
-        const recq = await fetch('https://jsonplaceholder.org/', {
+        const recq = await fetch('https://jsonplaceholder.org', {
             Headers: {
                 Accept: 'Application/json'
             }
