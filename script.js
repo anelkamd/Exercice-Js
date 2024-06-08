@@ -1,3 +1,5 @@
+// Coding by anelka MD //
+
 function createArticle (post) {
     const arcticle = document.createElement('article')
     arcticle.innerHTML = `
