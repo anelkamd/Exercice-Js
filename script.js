@@ -8,6 +8,9 @@ function createArticle (post) {
     `
     return arcticle
 }
+function recets () {
+    
+}
 
  async function main () {
     const last = document.createElement('p')
@@ -16,7 +19,7 @@ function createArticle (post) {
     Wrapper.append(loader) 
 
     try {
-        const recq = await fetch('https://jsonplaceholder.org/post', {
+        const recq = await fetch('https://jsonplaceholder.org/postS', {
             Headers: {
                 Accept: 'Application/json'
             }
