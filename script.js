@@ -8,9 +8,7 @@ function createArticle (post) {
     `
     return arcticle
 }
-function recets () {
-    
-}
+
 
  async function main () {
     const last = document.createElement('p')
